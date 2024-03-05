@@ -9,8 +9,8 @@ body {
 .ppmain {
     display: flex;
     flex-direction: column;
-    height: auto;
-    overflow: auto;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .header {
@@ -50,7 +50,7 @@ li {
 
 .main {
     display: flex;
-    height: 800px;
+    height: 80%;
 }
 
 .body1 {
@@ -153,7 +153,7 @@ li {
 
 }
 
-@media screen and (orientation:landscape) and (min-width:1200px){
+@media screen and  (min-width:1200px){
     .ppmain {
         overflow: auto;
         height: auto;
