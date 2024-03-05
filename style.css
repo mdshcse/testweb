@@ -169,5 +169,7 @@ li {
     .header{
         padding: 10px;
     }
-
+.body2 {
+        background-color:rgb(196, 23, 23);
+    }
 }
