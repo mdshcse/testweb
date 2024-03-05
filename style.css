@@ -116,8 +116,11 @@ li {
     }
     .main {
         min-height: 1000px;
-        background-color:black;
     }
+
+    body2 {
+    background-color:blue;
+}
     .header{
         padding: 10px;
     }
