@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: blueviolet;
     overflow: hidden;
 }
 
@@ -152,5 +151,18 @@ li {
     margin-top: 30px;
 }
 
-    
+}
+
+@media screen and (orientation:landscape) and (min-width:1500px){
+    .ppmain {
+        overflow: auto;
+        height: auto;
+    }
+    .main {
+        height: 1000px;
+    }
+    .header{
+        padding: 10px;
+    }
+
 }
