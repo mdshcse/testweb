@@ -115,7 +115,7 @@ li {
         height: auto;
     }
     .main {
-        height: 1000px;
+        min-height: 1000px;
     }
     .header{
         padding: 10px;
